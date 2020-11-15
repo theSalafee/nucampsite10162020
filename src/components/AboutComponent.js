@@ -36,7 +36,7 @@ function PartnerList(props) {
     const partners = props.partners.partners.map((partner) => {
         return (
             <Fade in key={partner.id}>
-                <Media tag="li">
+                <Media tag="li" className="partnersSpacer" >
                     <RenderPartner partner={partner} />
                 </Media>
             </Fade>
