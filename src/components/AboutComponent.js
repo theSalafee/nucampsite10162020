@@ -64,77 +64,83 @@ function PartnerList(props) {
 
 function About(props) {
     return (
-        <div className="container">
-            <div className="row">
-                <div className="col">
-                    <Breadcrumb>
-                        <BreadcrumbItem>
-                            <Link to="/home">Home</Link>
-                        </BreadcrumbItem>
-                        <BreadcrumbItem active>About Us</BreadcrumbItem>
-                    </Breadcrumb>
-                    <h2>About Us</h2>
-                    <hr />
-                </div>
-            </div>
-            <div className="row row-content">
-                <div className="col-sm-6">
-                    <h3>Our Mission</h3>
-                    <p>
-                        We present a curated database of the best campsites in the vast
-                        woods and backcountry of the World Wide Web Wilderness. We increase
-                        access to adventure for the public while promoting safe and
-                        respectful use of resources. The expert wilderness trekkers on our
-                        staff personally verify each campsite to make sure that they are up
-                        to our standards. We also present a platform for campers to share
-                        reviews on campsites they have visited with each other.
-          </p>
-                </div>
-                <div className="col-sm-6">
-                    <Card>
-                        <CardHeader className="bg-primary text-white">
-                            <h3>Facts At a Glance</h3>
-                        </CardHeader>
-                        <CardBody>
-                            <dl className="row">
-                                <dt className="col-6">Founded</dt>
-                                <dd className="col-6">February 3, 2016</dd>
-                                <dt className="col-6">No. of Campsites in 2019</dt>
-                                <dd className="col-6">563</dd>
-                                <dt className="col-6">No. of Reviews in 2019</dt>
-                                <dd className="col-6">4388</dd>
-                                <dt className="col-6">Employees</dt>
-                                <dd className="col-6">42</dd>
-                            </dl>
-                        </CardBody>
-                    </Card>
-                </div>
-                <div className="col">
-                    <Card className="bg-light mt-3">
-                        <CardBody>
-                            <blockquote className="blockquote">
-                                <p className="mb-0">
-                                    I will not follow where the path may lead, but I will go where
-                                    there is no path, and I will leave a trail.
-                </p>
-                                <footer className="blockquote-footer">
-                                    Muriel Strode,{" "}
-                                    <cite title="Source Title">
-                                        "Wind-Wafted Wild Flowers" - The Open Court, 1903
-                  </cite>
-                                </footer>
-                            </blockquote>
-                        </CardBody>
-                    </Card>
-                </div>
-            </div>
-            <div className="row row-content">
-                <div className="col-12">
-                    <h3>Community Partners</h3>
-                </div>
-                <PartnerList partners={props.partners} />
-            </div>
+      <div className="container">
+        <div className="row">
+          <div className="col">
+            <Breadcrumb>
+              <BreadcrumbItem>
+                <Link to="/home">Home</Link>
+              </BreadcrumbItem>
+              <BreadcrumbItem active>About Us</BreadcrumbItem>
+            </Breadcrumb>
+            <h2>About Us</h2>
+            <hr />
+          </div>
         </div>
+        <div className="row row-content">
+          <div className="col-sm-6">
+            <h3>Our Mission</h3>
+            <p>
+              Mug-Life brand and coffee, we are determined to positively influence our
+              global community; from the people living in the villages and towns
+              where the coffee beans are grown, to the farmers, the shippers,
+              our roasters, our baristas and most importantly, each and every
+              one of our customers, holding a warm cup of Red Whale coffee in
+              their hand every day. We are committed to source the best beans
+              possible, cook those beans precisely to reach their optimum
+              flavor, educate our customers about what they should expect in a
+              quality bean (knowledge is power) and then make that quality bean
+              available. While our objectives are to roast specialty coffee that
+              tastes great and offer a brand recognized for quality, our greater
+              vision is to use coffee to improve our community through education
+              and business practices, based on ethics, respect and transparency
+            </p>
+          </div>
+          <div className="col-sm-6">
+            <Card>
+              <CardHeader className="bg-primary text-white">
+                <h3>Facts At a Glance</h3>
+              </CardHeader>
+              <CardBody>
+                <dl className="row">
+                  <dt className="col-6">Founded</dt>
+                  <dd className="col-6">February 3, 2016</dd>
+                  <dt className="col-6">No. of Campsites in 2019</dt>
+                  <dd className="col-6">563</dd>
+                  <dt className="col-6">No. of Reviews in 2019</dt>
+                  <dd className="col-6">4388</dd>
+                  <dt className="col-6">Employees</dt>
+                  <dd className="col-6">42</dd>
+                </dl>
+              </CardBody>
+            </Card>
+          </div>
+          <div className="col">
+            <Card className="bg-light mt-3">
+              <CardBody>
+                <blockquote className="blockquote">
+                  <p className="mb-0">
+                    I will not follow where the path may lead, but I will go
+                    where there is no path, and I will leave a trail.
+                  </p>
+                  <footer className="blockquote-footer">
+                    Muriel Strode,{" "}
+                    <cite title="Source Title">
+                      "Wind-Wafted Wild Flowers" - The Open Court, 1903
+                    </cite>
+                  </footer>
+                </blockquote>
+              </CardBody>
+            </Card>
+          </div>
+        </div>
+        <div className="row row-content">
+          <div className="col-12">
+            <h3>Community Partners</h3>
+          </div>
+          <PartnerList partners={props.partners} />
+        </div>
+      </div>
     );
 }
 
