@@ -54,7 +54,7 @@ class Contact extends Component {
                             <BreadcrumbItem>
                                 <Link to="/home">Home</Link>
                             </BreadcrumbItem>
-                            <BreadcrumbItem active>Contact Us</BreadcrumbItem>
+                            <BreadcrumbItem active>Hit Us Up</BreadcrumbItem>
                         </Breadcrumb>
                         <h2>Contact Us</h2>
                         <hr />
@@ -65,16 +65,16 @@ class Contact extends Component {
                     <div className="col-sm-4">
                         <h5>Our Address</h5>
                         <address>
-                            1 Nucamp Way
+                            1 Mug-Life Ave
               <br />
-              Seattle, WA 98001
+              Spokane, WA 99205
               <br />
               U.S.A.
             </address>
                     </div>
                     <div className="col">
                         <a role="button" className="btn btn-link" href="tel:+12065551234">
-                            <i className="fa fa-phone" /> 1-206-555-1234
+                            <i className="fa fa-phone" /> 1-509-217-1620
             </a>
                         <br />
                         <a
@@ -82,7 +82,7 @@ class Contact extends Component {
                             className="btn btn-link"
                             href="mailto:fakeemail@fakeemail.co"
                         >
-                            <i className="fa fa-envelope-o" /> campsites@nucamp.co
+                            <i className="fa fa-envelope-o" /> coffee@mug_life.co
             </a>
                     </div>
                 </div>
