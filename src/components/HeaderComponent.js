@@ -59,8 +59,8 @@ class Header extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="col">
-                                <h1>NuCamp</h1>
-                                <h2>a better way to camp</h2>
+                                <h1>Mug-Life Coffee</h1>
+                                <h2>When sleep is overrated!</h2>
                             </div>
                         </div>
                     </div>
@@ -70,7 +70,7 @@ class Header extends Component {
                     <div className="container">
                         <NavbarBrand className="mr-auto" href="/">
                             <img
-                                src="/assets/images/logo.png"
+                                src="/assets/images/coffee-cup.svg"
                                 height="30"
                                 width="30"
                                 alt="NuCamp Logo"
