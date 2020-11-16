@@ -1,3 +1,47 @@
+# Mug-Life Coffee
+
+A project to demonstrate skills in React development, UI/UX and Responsive mobile design. Mug-Life uses several modern User Interface libraries, like React.js, React Bootstrap, Redux and more. For a complete list see the dependancies in the package.json. To mimic as closely as possible a real development environment a mock backend server was set up using JSON-server. Instructions for installing and running the server are below. Using json-server developers can use tools like Postman or Talend to test their API's.
+
+# json-server 
+
+json-server is an easy fast tool for front-end developers who need a quick back-end for prototyping and mocking.
+
+## Installation
+
+Install JSON Server
+
+```bash
+npm install -g json-server
+```
+
+1. Remove the json-server folder from the nucamp project placing it above the nucampsite in the directory.
+
+2. Move to the json-server folder in your bash terminal and type the following at the command prompt to start the server:
+
+```bash
+json-server -H 0.0.0.0 --watch db.json -p 3001 -d 2000
+ ```
+
+This should start up a server at port number 3001 on your machine, and it will respond to server requests with a simulated delay of 2000 milliseconds. The data from this server can be accessed by typing the following addresses into your browser address bar
+
+```bash
+http://localhost:3001/campsites
+http://localhost:3001/partners
+http://localhost:3001/promotions
+http://localhost:3001/comments
+http://localhost:3001/feedback 
+```
+
+## Resources
+[Typicode](https://github.com/typicode/json-server)
+
+[Pexels](https://www.pexels.com/)
+
+[Material.io](https://material.io/resources/color/#!/?view.left=0&view.right=0)
+
+[SVG Repo](https://www.svgrepo.com/svg/16383/coffee-cup)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
