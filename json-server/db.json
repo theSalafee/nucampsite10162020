@@ -1,0 +1,308 @@
+{
+  "campsites": [
+    {
+      "id": 0,
+      "name": "Purely Peru",
+      "image": "images/peru_passion.jpg",
+      "elevation": 1233,
+      "featured": false,
+      "description": "A Peruvian blended coffee offering a mild silky taste. Imported directly from Peru and infused with secret sweetness."
+    },
+    {
+      "id": 1,
+      "name": "Coffee n' Cake",
+      "image": "images/coffee_cake.jpg",
+      "elevation": 877,
+      "featured": false,
+      "description": "Spend a few moments with this luciously sweet coffee. Its bold and strong yet sweet and soft."
+    },
+    {
+      "id": 2,
+      "name": "Coffee on the brain",
+      "image": "images/coffee_reading.jpg",
+      "elevation": 2901,
+      "featured": false,
+      "description": "Who needs Red Bull when you got this high voltage goodness in your life."
+    },
+    {
+      "id": 3,
+      "name": "Chocolate Stooper",
+      "image": "images/coffeeblurred.jpg",
+      "elevation": 42,
+      "featured": true,
+      "description": "You'll never want to leave this hidden gem, deep within the lush choco beans. So rich you'll think you're Jay-Z."
+    }
+  ],
+  "comments": [
+    {
+      "id": 0,
+      "campsiteId": 0,
+      "rating": 5,
+      "text": "What a magnificent view!",
+      "author": "Tinus Lorvaldes",
+      "date": "2018-10-25T16:30Z"
+    },
+    {
+      "id": 1,
+      "campsiteId": 0,
+      "rating": 4,
+      "text": "The campground was beautiful, but the bugs could bite sometimes.",
+      "author": "Brennen Ech",
+      "date": "2017-06-17T03:33Z"
+    },
+    {
+      "id": 2,
+      "campsiteId": 0,
+      "rating": 5,
+      "text": "I caught a world-record-breaking trout here on my last visit.",
+      "author": "McKenzie Sebastian",
+      "date": "2019-02-18T18:12Z"
+    },
+    {
+      "id": 3,
+      "campsiteId": 0,
+      "rating": 5,
+      "text": "A wonderful place to reconnect with nature.",
+      "author": "Jordan Runn",
+      "date": "2019-08-04T20:11Z"
+    },
+    {
+      "id": 4,
+      "campsiteId": 0,
+      "rating": 4,
+      "text": "The stars at night were a revelation!",
+      "author": "Ann Dabramov",
+      "date": "2018-07-23T19:44Z"
+    },
+    {
+      "id": 5,
+      "campsiteId": 1,
+      "rating": 4,
+      "text": "The campground was beautiful, but the bugs could bite sometimes.",
+      "author": "Brennen Ech",
+      "date": "2017-06-17T03:33Z"
+    },
+    {
+      "id": 6,
+      "campsiteId": 1,
+      "rating": 5,
+      "text": "I caught a world-record-breaking trout here on my last visit.",
+      "author": "McKenzie Sebastian",
+      "date": "2019-02-18T18:12Z"
+    },
+    {
+      "id": 7,
+      "campsiteId": 1,
+      "rating": 5,
+      "text": "A wonderful place to reconnect with nature.",
+      "author": "Jordan Runn",
+      "date": "2019-08-04T20:11Z"
+    },
+    {
+      "id": 8,
+      "campsiteId": 1,
+      "rating": 4,
+      "text": "The stars at night were a revelation!",
+      "author": "Ann Dabramov",
+      "date": "2018-07-23T19:44Z"
+    },
+    {
+      "id": 9,
+      "campsiteId": 1,
+      "rating": 5,
+      "text": "What a magnificent view!",
+      "author": "Tinus Lorvaldes",
+      "date": "2018-10-25T16:30Z"
+    },
+    {
+      "id": 10,
+      "campsiteId": 2,
+      "rating": 5,
+      "text": "I caught a world-record-breaking trout here on my last visit.",
+      "author": "McKenzie Sebastian",
+      "date": "2019-02-18T18:12Z"
+    },
+    {
+      "id": 11,
+      "campsiteId": 2,
+      "rating": 5,
+      "text": "A wonderful place to reconnect with nature.",
+      "author": "Jordan Runn",
+      "date": "2019-08-04T20:11Z"
+    },
+    {
+      "id": 12,
+      "campsiteId": 2,
+      "rating": 4,
+      "text": "The stars at night were a revelation!",
+      "author": "Ann Dabramov",
+      "date": "2018-07-23T19:44Z"
+    },
+    {
+      "id": 13,
+      "campsiteId": 2,
+      "rating": 5,
+      "text": "What a magnificent view!",
+      "author": "Tinus Lorvaldes",
+      "date": "2018-10-25T16:30Z"
+    },
+    {
+      "id": 14,
+      "campsiteId": 2,
+      "rating": 4,
+      "text": "The campground was beautiful, but the bugs could bite sometimes.",
+      "author": "Brennen Ech",
+      "date": "2017-06-17T03:33Z"
+    },
+    {
+      "id": 15,
+      "campsiteId": 3,
+      "rating": 5,
+      "text": "A wonderful place to reconnect with nature.",
+      "author": "Jordan Runn",
+      "date": "2019-08-04T20:11Z"
+    },
+    {
+      "id": 16,
+      "campsiteId": 3,
+      "rating": 4,
+      "text": "The stars at night were a revelation!",
+      "author": "Ann Dabramov",
+      "date": "2018-07-23T19:44Z"
+    },
+    {
+      "id": 17,
+      "campsiteId": 3,
+      "rating": 5,
+      "text": "What a magnificent view!",
+      "author": "Tinus Lorvaldes",
+      "date": "2018-10-25T16:30Z"
+    },
+    {
+      "id": 18,
+      "campsiteId": 3,
+      "rating": 4,
+      "text": "The campground was beautiful, but the bugs could bite sometimes.",
+      "author": "Brennen Ech",
+      "date": "2017-06-17T03:33Z"
+    },
+    {
+      "id": 19,
+      "campsiteId": 3,
+      "rating": 5,
+      "text": "I caught a world-record-breaking trout here on my last visit.",
+      "author": "McKenzie Sebastian",
+      "date": "2019-02-18T18:12Z"
+    },
+    {
+      "campsiteId": 0,
+      "rating": "2",
+      "author": "Naasir Bush",
+      "text": "Testing",
+      "date": "2020-11-07T04:15:56.128Z",
+      "id": 20
+    },
+    {
+      "campsiteId": 0,
+      "rating": "3",
+      "author": "Naasir Bush",
+      "text": "Blah",
+      "date": "2020-11-07T19:45:13.357Z",
+      "id": 21
+    }
+  ],
+  "partners": [
+    {
+      "id": 0,
+      "name": "Controversy Coffee",
+      "image": "images/double_shot.jpg",
+      "featured": false,
+      "description": "Superman level strength. Not interested in sleeping the take a shot."
+    },
+    {
+      "id": 1,
+      "name": "Thomas Hammer",
+      "image": "images/espresso_coffee.jpg",
+      "featured": false,
+      "description": "Pounding coffee shots on frat-boy levels since back in the day!"
+    },
+    {
+      "id": 2,
+      "name": "Dutch Bro's Mafia",
+      "image": "images/mafia_coffee.jpg",
+      "featured": false,
+      "description": "Need some criminally good coffee? Hit up the Dutch mafia for drinks good enough to do time for."
+    },
+    {
+      "id": 3,
+      "name": "Brown Pride",
+      "image": "images/i_love_coffee.jpg",
+      "featured": true,
+      "description": "Coffee so smooth and silk voices get deeper, speech slower and irresistable. Imported from the lands of the Motherland."
+    }
+  ],
+  "promotions": [
+    {
+      "id": 0,
+      "name": "Red-bone Passion",
+      "image": "images/white_coffee.jpg",
+      "featured": true,
+      "description": "High yellow and stong. A coffee fine like may wine. Sip this coffee all day long feeling like you're in the vineyards of Morroco."
+    },
+    {
+      "id": 1
+    },
+    [
+      {
+        "id": 10,
+        "name": "Spokane Adventure",
+        "image": "images/breadcrumb-trail.jpg",
+        "featured": true,
+        "description": "Book a 10 day trip with Postman using our JSON bookings API"
+      }
+    ]
+  ],
+  "feedback": [
+    {
+      "id": 0,
+      "firstname": "Test",
+      "lastname": "Test",
+      "telnum": "12345",
+      "email": "test@test.com",
+      "agree": true,
+      "contactType": "Email",
+      "message": "test",
+      "date": "2019-10-25T13:30Z"
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "phoneNum": "",
+      "email": "",
+      "agree": false,
+      "contactType": "Phone",
+      "feedback": "",
+      "id": 1
+    },
+    {
+      "firstName": "Naasir",
+      "lastName": "Bush",
+      "phoneNum": "5092176202",
+      "email": "naasirbush@icloud.com",
+      "agree": true,
+      "contactType": "By Email",
+      "feedback": "Naasir",
+      "id": 2
+    },
+    {
+      "firstName": "Naasir",
+      "lastName": "Bush",
+      "phoneNum": "5092176202",
+      "email": "naasirbush@icloud.com",
+      "agree": true,
+      "contactType": "By Email",
+      "feedback": "This teacher sucks",
+      "id": 3
+    }
+  ]
+}
