@@ -3,7 +3,7 @@
     {
       "id": 0,
       "name": "Purely Peru",
-      "image": "https://github.com/theSalafee/muglifejsonserver/blob/master/json-server/public/images/peru_passion.jpg?raw=true",
+      "image": "https://github.com/theSalafee/nucampsite10162020/blob/master/json-server/public/images/peru_passion.jpg?raw=true",
       "elevation": 1233,
       "featured": false,
       "description": "A Peruvian blended coffee offering a mild silky taste. Imported directly from Peru and infused with secret sweetness."
@@ -11,7 +11,7 @@
     {
       "id": 1,
       "name": "Coffee n' Cake",
-      "image": "https://github.com/theSalafee/muglifejsonserver/blob/master/json-server/public/images/coffee_cake.jpg?raw=true",
+      "image": "https://github.com/theSalafee/nucampsite10162020/blob/master/json-server/public/images/coffee_cake.jpg?raw=true",
       "elevation": 877,
       "featured": false,
       "description": "Spend a few moments with this luciously sweet coffee. Its bold and strong yet sweet and soft."
@@ -19,7 +19,7 @@
     {
       "id": 2,
       "name": "Coffee on the brain",
-      "image": "https://github.com/theSalafee/muglifejsonserver/blob/master/json-server/public/images/coffee_reading.jpg?raw=true",
+      "image": "https://github.com/theSalafee/nucampsite10162020/blob/master/json-server/public/images/coffee_reading.jpg?raw=true",
       "elevation": 2901,
       "featured": false,
       "description": "Who needs Red Bull when you got this high voltage goodness in your life."
@@ -27,7 +27,7 @@
     {
       "id": 3,
       "name": "Chocolate Stooper",
-      "image": "https://github.com/theSalafee/muglifejsonserver/blob/master/json-server/public/images/coffeeblurred.jpg?raw=true",
+      "image": "https://github.com/theSalafee/nucampsite10162020/blob/master/json-server/public/images/coffeeblurred.jpg?raw=true",
       "elevation": 42,
       "featured": true,
       "description": "You'll never want to leave this hidden gem, deep within the lush choco beans. So rich you'll think you're Jay-Z."
@@ -215,28 +215,28 @@
     {
       "id": 0,
       "name": "Controversy Coffee",
-      "image": "https://github.com/theSalafee/muglifejsonserver/blob/master/json-server/public/images/double_shot.jpg?raw=true",
+      "image": "https://github.com/theSalafee/nucampsite10162020/blob/master/json-server/public/images/double_shot.jpg?raw=true",
       "featured": false,
       "description": "Superman level strength. Not interested in sleeping the take a shot."
     },
     {
       "id": 1,
       "name": "Thomas Hammer",
-      "image": "https://github.com/theSalafee/muglifejsonserver/blob/master/json-server/public/images/espresso_coffee.jpg?raw=true",
+      "image": "https://github.com/theSalafee/nucampsite10162020/blob/master/json-server/public/images/espresso_coffee.jpg?raw=true",
       "featured": false,
       "description": "Pounding coffee shots on frat-boy levels since back in the day!"
     },
     {
       "id": 2,
       "name": "Dutch Bro's Mafia",
-      "image": "https://github.com/theSalafee/muglifejsonserver/blob/master/json-server/public/images/mafia_coffee.jpg?raw=true",
+      "image": "https://github.com/theSalafee/nucampsite10162020/blob/master/json-server/public/images/mafia_coffee.jpg?raw=true",
       "featured": false,
       "description": "Need some criminally good coffee? Hit up the Dutch mafia for drinks good enough to do time for."
     },
     {
       "id": 3,
       "name": "Brown Pride",
-      "image": "https://github.com/theSalafee/muglifejsonserver/blob/master/json-server/public/images/i_love_coffee.jpg?raw=true",
+      "image": "https://github.com/theSalafee/nucampsite10162020/blob/master/json-server/public/images/i_love_coffee.jpg?raw=true",
       "featured": true,
       "description": "Coffee so smooth and silk voices get deeper, speech slower and irresistable. Imported from the lands of the Motherland."
     }
@@ -245,7 +245,7 @@
     {
       "id": 0,
       "name": "Red-bone Passion",
-      "image": "https://github.com/theSalafee/muglifejsonserver/blob/master/json-server/public/images/white_coffee.jpg?raw=true",
+      "image": "https://github.com/theSalafee/nucampsite10162020/blob/master/json-server/public/images/white_coffee.jpg?raw=true",
       "featured": true,
       "description": "High yellow and stong. A coffee fine like may wine. Sip this coffee all day long feeling like you're in the vineyards of Morroco."
     },
