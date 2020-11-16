@@ -8,7 +8,7 @@ import {
     Media,
 } from "reactstrap";
 import { Link } from "react-router-dom";
-import { baseUrl } from "../shared/baseUrl";
+// import { baseUrl } from "../shared/baseUrl";
 import { Loading } from "./LoadingComponent";
 import { Fade, Stagger } from "react-animation-components";
 
@@ -18,7 +18,7 @@ function RenderPartner({ partner }) {
             <React.Fragment>
                 <Media
                     object
-                    src={baseUrl + partner.image}
+                    src={partner.image}
                     alt={partner.name}
                     width="150"
                 />
